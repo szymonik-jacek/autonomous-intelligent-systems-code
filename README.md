@@ -2,11 +2,11 @@
 
 Runnable Jupyter notebooks accompanying the book *Autonomous Intelligent Systems: From Kalman Filtering to Hybrid AI in Practice* by Jacek Szymonik and Michał Nietopiel.
 
-Each `chapter_N/` folder contains the notebooks for that chapter. Figures produced by the notebooks are written to `chapter_N/figures/`.
+The notebooks for each chapter are in `chapter_N/source_code/`. Figures produced by the notebooks are written to `chapter_N/figures/`.
 
 ## Contents
 
-| Chapter | Topic | Notebooks |
+| Chapter | Topic | Notebooks (`chapter_N/source_code/`) |
 |---|---|---|
 | 5 | Planning: classical algorithms, reinforcement learning, LLM planners | `state_space`, `dijkstra_algorithm`, `rrt_algorithm`, `reinforcement_learning`, `vehicle_routing`, `uav_mission_planning`, `ambitious_task_ollama_solution` |
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-`chapter_5/ambitious_task_ollama_solution.ipynb` additionally needs a local [Ollama](https://ollama.com) server running at `http://localhost:11434`.
+`chapter_5/source_code/ambitious_task_ollama_solution.ipynb` additionally needs a local [Ollama](https://ollama.com) server running at `http://localhost:11434` with the `phi3` model installed (`ollama pull phi3`).
 
 ## Note
 
