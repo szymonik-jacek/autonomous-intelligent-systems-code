@@ -1,0 +1,5 @@
+numpy>=2.4
+matplotlib>=3.11
+requests>=2.34
+ipython>=9.15
+jupyter>=1.1
